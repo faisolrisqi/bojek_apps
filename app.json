@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Bojek",
+    "slug": "Bojek",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "aspecRatio":"0.9",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.ojek_apps.bojek",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
